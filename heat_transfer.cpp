@@ -17,9 +17,8 @@
  *  The programe aims to simulate heat transfermation via OpenMP.
  *
  *  Usage: heat_transfer [npix] [num_threads]
- *  e.g.: heat_transfer 100 2
  *  npix is the width and height of output plate, if not specified, it is 100.
- *  num_threads is the threads that will be created when computing, it should in range [1, be max_threads], by default, it is max_threads.
+ *  num_threads is the threads that will be created while computing, it should be in range [1, max_threads], by default, it is max_threads.
  */
 
 
